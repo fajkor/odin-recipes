@@ -1,0 +1,72 @@
+/*Throughout the page complementary colors and have been used */
+/**************************************************************/
+
+/*set background color of the website*/
+body {
+  background-color: #eeeeee;
+}
+
+/*make image size responsive and center it*/
+img {
+  height: auto;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Style main title, description, ingredients and steps. Group them together*/
+h1,
+h2,
+h3 {
+  color: #34568b;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/*set main title size*/
+h1 {
+  font-size: 45px;
+}
+
+/*set description size*/
+h2 {
+  font-size: 30px;
+}
+
+/*set ingredients and steps size*/
+h3 {
+  font-size: 26px;
+}
+
+/*center homepage recipes list*/
+.recipes {
+  text-align: center;
+  display: block;
+}
+
+/*style homepage recipes list*/
+a {
+  color: #322613;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+/*Style description, ingredients and steps.*/
+.description,
+ul li,
+ol li {
+  color: #322613;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: start;
+}
+
+/*block display ingredients and steps to take the bullets and numbers away*/
+ul li,
+ol li {
+  display: block;
+}
+
+
